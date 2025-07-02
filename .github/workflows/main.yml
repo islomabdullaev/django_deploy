@@ -27,6 +27,9 @@ jobs:
         uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.EC2_SSH_KEY }}
+      
+      - name: Run Django tests inside Docker
+        run: docker-compose run web python manage.py test
 
       - name: Deploy app to EC2 with CI CD
         run: |
