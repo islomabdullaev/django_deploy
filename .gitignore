@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.env
+*.venv
+.env
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+pip-wheel-metadata/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/  # If collected statically
+static/       # If used for dev
+
+# Django migrations (optional)
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+# Uncomment to ignore all migration files (if you regenerate them frequently)
+# */migrations/*.py
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test / coverage / profiling
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Docker
+*.pid
+
+# Local secret files
+secrets.json
+.env.*
+
+# IDE specific
+*.swp
+*.swo
